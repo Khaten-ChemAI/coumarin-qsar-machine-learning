@@ -58,3 +58,32 @@ Future improvements may include:
 ## Note
 
 This is an exploratory research project developed for investigating QSAR and machine learning approaches to coumarin-based compounds. The reported models should be interpreted in the context of the available dataset and validation strategy.
+
+## Dataset
+
+The dataset comprises 34 coumarin-based compounds with experimentally reported
+pIC50 values for inhibition of LPS-induced nitric oxide (NO) production.
+
+The activity data were compiled from previously published literature. Each
+compound and its corresponding biological activity were curated from the
+reported experimental data and transformed to pIC50 values for QSAR analysis.
+
+### Data Sources
+
+Literature sources used in the dataset are:
+
+1. Liu, Y.-P.; Yan, G.; Xie, Y.-T.; Lin, T.-C.; Zhang, W.; Li, J.; Wu, Y.-J.; Zhou, J.-Y.; Fu, Y.-H. Bioactive prenylated coumarins as potential anti-inflammatory and anti-HIV agents from *Clausena lenis*.*Bioorganic Chemistry* **2020**, 97, 103699.
+
+DOI: https://doi.org/10.1016/j.bioorg.2020.103699
+
+2. Fattah, T. A.; Saeed, A.; Al-Hiari, Y. M.; Kasabri, V.; Almasri, I. M.; AlAlawi, S.; Larik, F. A.; Channar, P. A. Functionalized Furo[3,2-c]coumarins as Anti-Proliferative, Anti-Lipolytic, and Anti-Inflammatory Compounds: Synthesis and Molecular Docking Studies. *J. Mol. Struct.* **2019**, *1179*, 390–400. 
+
+DOI: https://doi.org/10.1016/j.molstruc.2018.11.014
+
+3. Wei, W.; Wu, X.-W.; Deng, G.-G.; Yang, X.-W. Anti-inflammatory Coumarins with Short- and Long-Chain Hydrophobic Groups from Roots of *Angelica dahurica* cv. Hangbaizhi. *Phytochemistry* **2016**, *123*, 58–68.
+
+DOI: https://doi.org/10.1016/j.phytochem.2016.01.006.
+
+4. Liang, H.; Shi, Y.; Zeng, K.; Zhao, M.; Tu, P.; Jiang, Y. Coumarin derivatives from the leaves and twigs of *Murraya exotica* L. and their anti-inflammatory activities. *Phytochemistry* **2020**, *177*, 112416.
+
+DOI: https://doi.org/10.1016/j.phytochem.2020.112416.
