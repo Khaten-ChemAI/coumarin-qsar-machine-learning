@@ -40,9 +40,11 @@ The current notebook contains the initial QSAR and machine learning workflow, in
 
 This repository represents an ongoing computational study, and the analysis may be updated as the dataset, molecular descriptors, feature selection, and machine learning approaches are further optimized.
 
-## Repository Contents
+## QSAR Analysis
 
-* `lps_induced_no_qsar_ml_analysis.ipynb` — Jupyter Notebook containing the QSAR and machine learning analysis.
+The complete QSAR and machine-learning workflow for LPS-induced nitric oxide (NO) production is provided in the Jupyter Notebook:
+
+[View the LPS-Induced NO QSAR/ML Analysis](lps_induced_no_qsar_ml_analysis.ipynb)
 
 ## Future Work
 
