@@ -42,9 +42,25 @@ This repository represents an ongoing computational study, and the analysis may 
 
 ## QSAR Analysis
 
-The complete QSAR and machine-learning workflow for LPS-induced nitric oxide (NO) production is provided in the Jupyter Notebook:
+The complete computational workflow is provided in the Jupyter Notebook:
 
-[View the LPS-Induced NO QSAR/ML Analysis](lps_induced_no_qsar_ml_analysis.ipynb)
+**[LPS-Induced NO QSAR and Machine Learning Analysis](lps_induced_no_qsar_ml_analysis.ipynb)**
+
+The workflow includes:
+
+- RDKit molecular descriptor generation
+- Molecular fingerprint generation
+- Dataset preprocessing and pIC50 transformation
+- LASSO descriptor selection
+- Multicollinearity assessment
+- Applicability Domain analysis
+- PLS QSAR modeling
+- External test-set validation
+- 5-fold cross-validation
+- Y-randomization validation
+- VIP and descriptor coefficient analysis
+- QSAR equation generation
+- Residual analysis
 
 ## Future Work
 
