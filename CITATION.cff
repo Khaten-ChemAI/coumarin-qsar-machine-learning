@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+
+message: "If you use this repository, dataset, or computational workflow, please cite it."
+
+title: "QSAR and Machine Learning Analysis of Coumarin-Based Compounds Against LPS-Induced NO Production"
+
+type: software
+
+authors:
+  - family-names: "Reang"
+    given-names: "Khatendra T."
+    affiliation: "Department of Chemistry, Visvesvaraya National Institute of Technology, Nagpur, Maharashtra, India"
+
+abstract: "Reproducible exploratory QSAR and machine-learning workflow for coumarin-based compounds evaluated against LPS-induced nitric oxide (NO) production. The workflow includes RDKit molecular descriptor and fingerprint generation, LASSO descriptor selection, PLS-QSAR modeling, applicability domain analysis, cross-validation, Y-randomization, external validation, and model interpretation."
+
+keywords:
+  - QSAR
+  - machine learning
+  - coumarin
+  - RDKit
+  - cheminformatics
+  - PLS regression
+  - LASSO
+  - molecular descriptors
+  - applicability domain
+  - LPS-induced nitric oxide
+
+repository-code: "https://github.com/Khaten-ChemAI/coumarin-qsar-machine-learning"
