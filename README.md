@@ -1,5 +1,7 @@
 # QSAR and Machine Learning Analysis of Coumarin-Based Compounds Against LPS-Induced NO Production
 
+[![DOI](https://zenodo.org/badge/1343757974.svg)](https://doi.org/10.5281/zenodo.22095645)
+
 ## Overview
 
 This repository contains an exploratory Quantitative Structure–Activity Relationship (QSAR) and machine learning analysis of coumarin-based compounds evaluated for biological activity against LPS-induced nitric oxide (NO) production.
