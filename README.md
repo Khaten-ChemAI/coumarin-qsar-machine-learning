@@ -68,6 +68,29 @@ The activity data were compiled from previously published literature. Each
 compound and its corresponding biological activity were curated from the
 reported experimental data and transformed to pIC50 values for QSAR analysis.
 
+## Final QSAR Model Performance
+
+| Metric | Training Set | 5-Fold CV | External Test Set |
+|---|---:|---:|---:|
+| R² | 0.7820 | 0.5325 | 0.5608 |
+| RMSE | 0.3119 | 0.4568 | 0.3947 |
+| MAE | 0.2307 | 0.3348 | 0.3298 |
+| Q² | — | 0.5325 | — |
+
+### Model Information
+
+- Training compounds: 27
+- External test compounds: 7
+- Selected descriptors: 13
+- PLS components: 1
+- Y-randomization permutations: 1000
+- Training compounds inside AD: 25/27
+- External test compounds inside AD: 6/7
+
+### Model Validation
+
+The final PLS QSAR model showed satisfactory agreement between observed and predicted pIC50 values, with R² = 0.7820 for the training set and R² = 0.5608 for the external test set. Five-fold cross-validation yielded Q² = 0.5325, supporting the internal predictive performance of the model. Y-randomization was performed using 1000 permutations to assess the possibility of chance correlation. The applicability domain analysis indicated that 25 of 27 training compounds and 6 of 7 external test compounds were within the defined applicability domain.
+
 ### Data Sources
 
 Literature sources used in the dataset are:
@@ -87,3 +110,20 @@ DOI: https://doi.org/10.1016/j.phytochem.2016.01.006.
 4. Liang, H.; Shi, Y.; Zeng, K.; Zhao, M.; Tu, P.; Jiang, Y. Coumarin derivatives from the leaves and twigs of *Murraya exotica* L. and their anti-inflammatory activities. *Phytochemistry* **2020**, *177*, 112416.
 
 DOI: https://doi.org/10.1016/j.phytochem.2020.112416.
+
+5. Landrum, G. **RDKit: Open-Source Cheminformatics Software.** 2016. 
+   https://www.rdkit.org/
+
+6. RDKit Documentation. **RDKit: Open-source cheminformatics toolkit.**
+   https://www.rdkit.org/docs/
+
+## Software
+
+- **RDKit** – Molecular structure processing, molecular descriptors, fingerprints, similarity calculations, and cheminformatics workflows.  
+  Landrum, G. *RDKit: Open-Source Cheminformatics Software* (2016).  
+  https://www.rdkit.org/
+
+- **scikit-learn** – Machine-learning algorithms and model validation used for QSAR modeling.  
+  https://scikit-learn.org/
+
+- **Python** – Computational programming environment used for data processing and QSAR analysis.
